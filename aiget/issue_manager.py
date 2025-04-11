@@ -1,23 +1,28 @@
-from github import Github
 import os
+from github import Github
+
+# Initialize GitHub client with token from secrets
+token = os.getenv("AIGET_TOKEN")
+if not token:
+    raise Exception("AIGET_TOKEN not found in environment variables")
+g = Github(token)
 
 def sync_issues(todos):
-    token = os.getenv("GITHUB_TOKEN")
-    if not token:
-        raise Exception("GITHUB_TOKEN not found in env vars")
+    repo_name = os.getenv("GITHUB_REPOSITORY")  # Example: "jagritiS/AIGeT"
+    if not repo_name:
+        raise Exception("GITHUB_REPOSITORY not found in environment variables")
 
-    repo_name = os.getenv("GITHUB_REPOSITORY")
-    g = Github(token)
     repo = g.get_repo(repo_name)
 
+    # Get existing open issues with AIGeT label
     existing = {issue.title for issue in repo.get_issues(state="open", labels=["AIGeT"])}
 
     for todo in todos:
-        title = f"TODO: {todo['text']}"
+        title = f"[AIGeT] TODO: {todo['text']}"
         body = f"📄 `{todo['file']}`, line {todo['line']}"
         label = todo.get("label", "todo")
 
         if title in existing:
-            continue
+            continue  # Skip if issue already exists
 
         repo.create_issue(title=title, body=body, labels=[label, "AIGeT"])
