@@ -8,9 +8,9 @@ if not token:
 g = Github(token)
 
 def sync_issues(todos):
-    repo_name = os.getenv("GITHUB_REPOSITORY")  # Example: "jagritiS/AIGeT"
+    repo_name = os.getenv("jagritiS/AIGeT")  # Example: "jagritiS/AIGeT"
     if not repo_name:
-        raise Exception("GITHUB_REPOSITORY not found in environment variables")
+        raise Exception("jagritiS/AIGeT not found in environment variables")
 
     repo = g.get_repo(repo_name)
 
