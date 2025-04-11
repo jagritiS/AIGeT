@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08262cc1-5fb7-4d52-9103-19ec5542a036" name="Changes" comment="todo tracker">
-      <change afterPath="$PROJECT_DIR$/todo_test.py" afterDir="false" />
+    <list default="true" id="08262cc1-5fb7-4d52-9103-19ec5542a036" name="Changes" comment="todo tracker token">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/aiget-action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/aiget-action.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744369781555</updated>
-      <workItem from="1744369783191" duration="1333000" />
+      <workItem from="1744369783191" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="todo tracker">
       <option name="closed" value="true" />
@@ -82,7 +83,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744371182088</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="todo tracker test file">
+      <option name="closed" value="true" />
+      <created>1744371320384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744371320384</updated>
+    </task>
+    <task id="LOCAL-00003" summary="todo tracker token">
+      <option name="closed" value="true" />
+      <created>1744374610914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744374610914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +107,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="todo tracker" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo tracker" />
+    <MESSAGE value="todo tracker test file" />
+    <MESSAGE value="todo tracker token" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo tracker token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
