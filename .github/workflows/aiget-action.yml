@@ -1,33 +1,28 @@
-name: AIGeT - Auto Issue Generator
+name: 🤖 AIGeT Issue Generator
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    paths:
+      - '**.py'
+  workflow_dispatch:
 
 jobs:
-  run:
+  run-aiget:
     runs-on: ubuntu-latest
-
+    env:
+      AIGET_GITHUB_TOKEN: ${{ secrets.AIGET_GITHUB_TOKEN }}
+      REPO_NAME: "jagritiS/AIGeT"  # Set the repository name here
     steps:
-      - name: Checkout coded0nyc0d3rs
-
-        uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Run AIGeT Script
+      - name: 🤖 Run AIGeT Script
         run: python aiget_main.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.AIGET_GITHUB_TOKEN }}  # Use the custom GitHub token stored as a secret

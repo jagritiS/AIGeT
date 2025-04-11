@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08262cc1-5fb7-4d52-9103-19ec5542a036" name="Changes" comment="todo change in action file">
+    <list default="true" id="08262cc1-5fb7-4d52-9103-19ec5542a036" name="Changes" comment="changes in the issue">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/aiget-action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/aiget-action.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiget/issue_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiget/issue_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744369781555</updated>
-      <workItem from="1744369783191" duration="3755000" />
+      <workItem from="1744369783191" duration="5502000" />
     </task>
     <task id="LOCAL-00001" summary="todo tracker">
       <option name="closed" value="true" />
@@ -114,7 +115,47 @@
       <option name="project" value="LOCAL" />
       <updated>1744375339976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="issues changes">
+      <option name="closed" value="true" />
+      <created>1744376617548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744376617548</updated>
+    </task>
+    <task id="LOCAL-00007" summary="issues changes">
+      <option name="closed" value="true" />
+      <created>1744376859671</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744376859671</updated>
+    </task>
+    <task id="LOCAL-00008" summary="issues changes">
+      <option name="closed" value="true" />
+      <created>1744376924766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744376924766</updated>
+    </task>
+    <task id="LOCAL-00009" summary="issues changes">
+      <option name="closed" value="true" />
+      <created>1744377271949</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744377271949</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changes in the issue">
+      <option name="closed" value="true" />
+      <created>1744377674162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744377674162</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,17 +166,8 @@
     <MESSAGE value="todo tracker test file" />
     <MESSAGE value="todo tracker token" />
     <MESSAGE value="todo change in action file" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo change in action file" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aiget_main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="issues changes" />
+    <MESSAGE value="changes in the issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in the issue" />
   </component>
 </project>
