@@ -8,3 +8,7 @@ def login_user():
 # TODO: Refactor this function to improve performance
 def example():
     pass
+
+# todo: need to make some more changes in test file
+def test():
+    pass
