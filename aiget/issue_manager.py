@@ -2,9 +2,9 @@ import os
 from github import Github
 
 # Initialize GitHub client with token from secrets
-token = os.getenv("AIGET_TOKEN")
+token = os.getenv("AIGET_GITHUB_TOKEN")
 if not token:
-    raise Exception("AIGET_TOKEN not found in environment variables")
+    raise Exception("AIGET_GITHUB_TOKEN not found in environment variables")
 g = Github(token)
 
 def sync_issues(todos):
