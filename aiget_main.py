@@ -3,10 +3,10 @@ from aiget.ai_classifier import classify_todo
 from aiget.issue_manager import sync_issues
 
 def main():
-    print("🔍 Scanning for TODOs...")
+    print("************************* Scanning for TODOs *********************************")
     todos = scan_todos(".")
 
-    print(f"📝 Found {len(todos)} TODOs. Classifying...")
+    print(f" !!!****Found {len(todos)} TODOs. Classifying ****!!!")
     classified_todos = [
         {
             **todo,
@@ -15,9 +15,9 @@ def main():
         for todo in todos
     ]
 
-    print("🚀 Syncing with GitHub Issues...")
+    print(" !!!!***** Syncing with GitHub Issues *****!!!!")
     sync_issues(classified_todos)
-    print("✅ Done!")
+    print("******************** Done ***********************")
 
 if __name__ == "__main__":
     main()
